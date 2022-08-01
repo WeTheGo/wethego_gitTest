@@ -2,7 +2,11 @@ import React from 'react';
 
 export default function App() {
   return (
-    <div>BBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBBB</div>
+    <div>
+      <div>
+        fucfcfucfcfcufcucfcufck
+      </div>
+    </div>
 
   );
 }
