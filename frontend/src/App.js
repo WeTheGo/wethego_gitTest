@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div>
       <h1>
-        수정
+        하나 더 수정
       </h1>
     </div>
   );
