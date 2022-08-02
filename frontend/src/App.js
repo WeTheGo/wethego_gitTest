@@ -1,10 +1,12 @@
 import React from "react";
-import { BrowserRouter, Route, Routes } from "react-router-dom";
+import { BrowserRouter } from "react-router-dom";
+import { Route, Routes } from "react-router";
 import LoginPage from "./pages/LoginPage";
 import Sumin from "./pages/Sumin";
 import Header from "./components/Header";
 import Footer from "./components/Footer";
 import Navigation from "./components/Navigation";
+import AdminPage from "./pages/AdminPage";
 
 export default function App() {
   return (
@@ -14,7 +16,7 @@ export default function App() {
       <Routes>
         <Route path="/" element={<Sumin />} />
         <Route path="/login" element={<LoginPage />} />
-
+        <Route path="/admin" element={<AdminPage/>} />
       </Routes>
       <Footer />
     </BrowserRouter>
