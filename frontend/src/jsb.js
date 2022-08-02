@@ -4,7 +4,7 @@ export default function App() {
   return (
     <div>
       <div>
-        JSBJSBJSBJSBJSBJSBJ
+        JSBJSBJSBJSBJSBJSB 한글한글한글
       </div>
     </div>
 
