@@ -1,12 +1,22 @@
-import React from 'react';
+import React from "react";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
+import LoginPage from "./pages/LoginPage";
+import Sumin from "./pages/Sumin";
+import Header from "./components/Header";
+import Footer from "./components/Footer";
+import Navigation from "./components/Navigation";
 
 export default function App() {
   return (
-    <div>
-      <div>
-          <h1>또 다시 변경해보았습니다.</h1>
-      </div>
-    </div>
+    <BrowserRouter>
+      <Header />
+      <Navigation />
+      <Routes>
+        <Route path="/" element={<Sumin />} />
+        <Route path="/login" element={<LoginPage />} />
 
+      </Routes>
+      <Footer />
+    </BrowserRouter>
   );
 }
