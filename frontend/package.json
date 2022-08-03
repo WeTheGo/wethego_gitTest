@@ -27,9 +27,16 @@
     "webpack-dev-server": "^4.9.3"
   },
   "dependencies": {
+<<<<<<< HEAD
     "@ant-design/icons": "^4.7.0",
     "antd": "^4.22.3",
     "less-loader": "^7.3.0",
+=======
+    "@emotion/react": "^11.10.0",
+    "@emotion/styled": "^11.10.0",
+    "@mui/icons-material": "^5.8.4",
+    "@mui/material": "^5.9.3",
+>>>>>>> origin/main
     "react": "^18.2.0",
     "react-addons-update": "^15.6.3",
     "react-dom": "^18.2.0",
